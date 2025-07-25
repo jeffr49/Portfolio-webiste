@@ -19,14 +19,14 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/jeffrey-rufus",
-      href: "https://linkedin.com/in/jeffrey-rufus"
+      value: "linkedin.com/in/jeffrey-rufus-506446287/",
+      href: "https://www.linkedin.com/in/jeffrey-rufus-506446287/"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/jeffreyrufus",
-      href: "https://github.com/jeffreyrufus"
+      value: "github.com/jeffr49",
+      href: "https://github.com/jeffr49"
     }
   ];
 
@@ -84,13 +84,13 @@ const Contact = () => {
                 </Button>
                 
                 <Button variant="outline" size="lg" className="w-full" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1H1FWxVhHpTby6MoMap_GVnOO0rEWYhZd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     Download Resume
                   </a>
                 </Button>
                 
                 <Button variant="accent" size="lg" className="w-full" asChild>
-                  <a href="https://linkedin.com/in/jeffrey-rufus" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/jeffrey-rufus-506446287/" target="_blank" rel="noopener noreferrer">
                     <Linkedin size={20} />
                     Connect on LinkedIn
                   </a>

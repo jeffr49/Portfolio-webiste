@@ -16,12 +16,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fade-up">
-            <p className="text-accent text-lg mb-4 font-medium">Hello, I'm</p>
+            
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent">
               Jeffrey Rufus
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8 font-light">
-              AI/ML Engineer & Computer Vision Specialist
+              Data Science & AI/ML Engineer
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
               Passionate about building intelligent systems that solve real-world problems. 
@@ -49,7 +49,7 @@ const Hero = () => {
 
             <div className="flex justify-center space-x-6">
               <a
-                href="https://github.com/jeffreyrufus"
+                href="https://github.com/jeffr49"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card shadow-card hover:shadow-glow transition-all duration-300 hover:scale-110"
@@ -57,7 +57,7 @@ const Hero = () => {
                 <Github size={24} className="text-foreground" />
               </a>
               <a
-                href="https://linkedin.com/in/jeffrey-rufus"
+                href="https://www.linkedin.com/in/jeffrey-rufus-506446287/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card shadow-card hover:shadow-glow transition-all duration-300 hover:scale-110"

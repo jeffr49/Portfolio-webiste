@@ -17,7 +17,7 @@ const Index = () => {
       
       {/* Footer */}
       <footer className="py-8 bg-primary text-primary-foreground text-center">
-        <p>&copy; 2024 Jeffrey Rufus. Built with passion and modern web technologies.</p>
+        <p>&copy; 2025 Jeffrey Rufus. Built with passion and modern web technologies.</p>
       </footer>
     </div>
   );

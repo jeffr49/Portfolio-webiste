@@ -9,8 +9,7 @@ const Projects = () => {
       description: "Developed a real-time brand detection system using YOLOv8 and OCR to extract MRP and expiry dates from live feeds. Built a custom-labeled dataset, optimized the YOLO model, and integrated Norfair-based object tracking into a web application for AI-driven retail automation.",
       tech: ["YOLOv8", "OCR", "Norfair", "Python", "Computer Vision"],
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/jeffr49/Brand-Detection-Model",        
       },
       achievement: "Flipkart GRiD 6.0 Semifinalist"
     },
@@ -19,8 +18,7 @@ const Projects = () => {
       description: "Developed AgriScan, a Flutter-based mobile app that uses machine learning and a Dockerized backend (FastAPI, TensorFlow) to detect plant diseases from leaf images. The app enables users to scan or upload images for real-time disease classification and provides detailed disease information.",
       tech: ["Flutter", "FastAPI", "TensorFlow", "Docker", "Computer Vision"],
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/jeffr49/AgriScan-Plant-Disease-Detection",        
       }
     },
     {
@@ -28,17 +26,16 @@ const Projects = () => {
       description: "Developed a CNN-based model in Python using Roboflow to assess the freshness of apples, bananas, and oranges. Collected, labeled, and augmented a balanced dataset of fresh and rotten fruits, and optimized performance through preprocessing and hyperparameter tuning.",
       tech: ["CNN", "Python", "Roboflow", "Data Augmentation", "Deep Learning"],
       links: {
-        github: "#",
-        demo: "#"
-      }
+        github: "https://github.com/jeffr49/Fruit-freshness-detection-model-using-CNN",        
+      },
+      achievement: "Flipkart GRiD 6.0 Semifinalist"
     },
     {
       title: "Building Neural Network from Scratch for EMNIST",
       description: "Developed a custom deep learning model from scratch for EMNIST handwritten character recognition, using a fully connected neural network with skip connections and manual backpropagation. Achieved high accuracy and robust metric tracking in the TensorCraft Hackathon.",
       tech: ["NumPy", "Pandas", "Matplotlib", "Neural Networks", "Backpropagation"],
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/jeffr49/Building-Neural-Network-from-scratch-for-EMNIST",        
       },
       achievement: "TensorCraft NIT-Trichy Finalist"
     }
@@ -97,12 +94,6 @@ const Projects = () => {
                       Code
                     </a>
                   </Button>
-                  <Button variant="accent" size="sm" asChild>
-                    <a href={project.links.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink size={16} />
-                      Demo
-                    </a>
-                  </Button>
                 </div>
               </div>
             </Card>
@@ -111,7 +102,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" asChild>
-            <a href="https://github.com/jeffreyrufus" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jeffr49" target="_blank" rel="noopener noreferrer">
               <Github size={20} />
               View All Projects on GitHub
             </a>

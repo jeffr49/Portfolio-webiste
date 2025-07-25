@@ -29,49 +29,49 @@ const Certificates = () => {
       title: "NPTEL Data Science for Engineers",
       issuer: "IIT Madras",
       description: "Comprehensive course covering data science fundamentals and machine learning concepts",
-      link: "#"
+      link: "https://drive.google.com/file/d/10vdZGOR3MgheuabV77rBA6RA8hMBmjiv/view"
     },
     {
       title: "Machine Learning Certification",
       issuer: "Kaggle",
       description: "Professional certification in machine learning concepts and practical applications",
-      link: "#"
+      link: "https://drive.google.com/file/d/1kqQ1PZvFvW_63TGiToP3YKSuEzF-mwAV/view"
     },
     {
       title: "Neural Networks and Deep Learning",
       issuer: "DeepLearning.AI",
       description: "Specialization in neural networks architecture and deep learning techniques",
-      link: "#"
+      link: "https://www.coursera.org/account/accomplishments/verify/5JYVOKYW10CB"
     },
     {
       title: "Introduction to Generative AI",
       issuer: "Google",
       description: "Foundational course on generative AI models and their applications",
-      link: "#"
+      link: "https://drive.google.com/file/d/1JgV5L1ITOz6adcbQt-CBEKbdDlExMWPh/view"
     },
     {
       title: "Python, C, C++ Certification",
       issuer: "IIT Bombay",
       description: "Programming fundamentals and advanced concepts certification",
-      link: "#"
+      link: "https://drive.google.com/drive/folders/1-b9BN7wYwyqMTO47DE-YHxUt0dHlYIHD"
     },
     {
       title: "HTML Essentials",
       issuer: "LinkedIn",
       description: "Web development fundamentals and HTML best practices",
-      link: "#"
+      link: "https://www.linkedin.com/learning/certificates/9aa123850355b7924d36d32be1e85a1812bf7aedf9d62515f3f4f0b4dd5b6027"
     },
     {
       title: "AI Foundations: Thinking Machines",
       issuer: "LinkedIn",
       description: "Foundational concepts in artificial intelligence and machine learning",
-      link: "#"
+      link: "https://www.linkedin.com/learning/certificates/67e4fa9d9c79c87a0dadac3efd8770ef613f455cb5fe1951bf0bac8c6aac1253"
     },
     {
       title: "Ethics in AI",
       issuer: "LinkedIn",
       description: "Understanding ethical considerations in AI development and deployment",
-      link: "#"
+      link: "https://www.linkedin.com/learning/certificates/9e5151b9fe95be05459353dadacaddbc3ae59e1c6d5b03c6d62a215675af6375"
     }
   ];
 
@@ -145,10 +145,12 @@ const Certificates = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
-            Continuously learning and staying updated with the latest in AI/ML
+            Continuously learning and staying updated with the latest in AI/ML and Deep Learning
           </p>
-          <Button variant="hero" size="lg">
-            View Full Resume
+          <Button variant="hero" size="lg" asChild>
+            <a href="https://drive.google.com/file/d/1H1FWxVhHpTby6MoMap_GVnOO0rEWYhZd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              View Full Resume
+            </a>
           </Button>
         </div>
       </div>
