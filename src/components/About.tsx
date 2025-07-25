@@ -25,6 +25,36 @@ const About = () => {
       organization: "ACM VIT Chennai",
       period: "Jul 2024 - Present",
       description: "Actively managing various departments and its members."
+    },
+    {
+      title: "AI Engineer Intern",
+      organization: "Finari Services Pvt Ltd",
+      period: "May 2025 – July 2025",
+      description: (
+        <>
+          <details className="mb-2">
+            <summary className="cursor-pointer text-accent font-medium">Read more</summary>
+            <div className="mt-2">
+              <div className="font-semibold mb-1">Project 1: AI-powered Task Management Bot</div>
+              <ul className="list-disc ml-6 mb-2">
+                <li>Developed a smart task assistant that understands natural language queries and returns real-time tabular task reports.</li>
+                <li>Built a conversational interface using Amazon Lex (V2) and AWS Lambda (Node.js) for backend queries.</li>
+                <li>Implemented slot-filling, intent chaining, and context-aware dialogues for natural user flow.</li>
+                <li>Rendered tabular reports in chat using structured message responses.</li>
+                <li>Integrated Amazon Cognito for secure, role-based access control.</li>
+              </ul>
+              <div className="font-semibold mb-1">Project 2: Future Expense Forecasting with FFNN & SageMaker</div>
+              <ul className="list-disc ml-6">
+                <li>Designed a deep learning model (FFNN in TensorFlow) to forecast consumer expenses using economic data.</li>
+                <li>Applied time-series preprocessing, feature engineering, and model optimization for accuracy.</li>
+                <li>Deployed the model to AWS SageMaker for real-time inference and built a user interface for live predictions.</li>
+                <li>Monitored usage and latency with Amazon CloudWatch.</li>
+              </ul>
+            </div>
+          </details>
+          <div>Worked as an AI Engineer Intern at Finari Services Pvt Ltd.</div>
+        </>
+      ),
     }
   ];
 
